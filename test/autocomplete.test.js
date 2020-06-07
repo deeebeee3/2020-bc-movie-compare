@@ -11,5 +11,9 @@ it('Shows an autocomplete', () => {
         renderOption(movie) {
             return movie.Title;
         }
-    })
+    });
+
+    const dropdown = document.querySelector('.dropdown');
+
+    
 });
